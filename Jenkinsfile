@@ -15,7 +15,7 @@ pipeline {
 
     stage('Shell Scritp') {
       steps {
-        sh 'docker compose up --build'
+        sh 'sudo docker compose up --build'
       }
     }
 
