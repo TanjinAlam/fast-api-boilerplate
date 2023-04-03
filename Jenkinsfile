@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('Shell Scritp') {
+      steps {
+        sh 'docker compose up --build'
+      }
+    }
+
   }
 }
